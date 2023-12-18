@@ -1,0 +1,24 @@
+{
+  "name": "elgentos/magento2-cancel-pending-orders",
+  "description": "Elgentos_CancelPendingOrders for magento 2",
+  "require": {
+    "php": ">=8.1.0",
+    "br33f/php-ga4-mp": "^0.1.0",
+    "8ctopus/php-ga-measurement-protocol": "^2.0"
+  },
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Wouter Steenmeijer",
+      "email": "wouter@elgentos.nl"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Elgentos\\CancelPendingOrders\\": ""
+    }
+  }
+}
