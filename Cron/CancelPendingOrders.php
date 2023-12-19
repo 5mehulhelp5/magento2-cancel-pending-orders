@@ -1,6 +1,6 @@
 <?php
 
-namespace Elgentos\Cron;
+namespace Elgentos\CancelPendingOrders\Cron;
 
 use Magento\Sales\Model\Order;
 use Magento\Sales\Model\ResourceModel\Order\CollectionFactory;
