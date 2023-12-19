@@ -1,6 +1,6 @@
 <?php
 
-namespace Elgentos\Cron;
+namespace Elgentos\CancelPendingOrders\Cron;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\Stdlib\DateTime\TimezoneInterface;
