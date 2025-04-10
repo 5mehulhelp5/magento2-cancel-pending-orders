@@ -9,9 +9,9 @@ use Magento\Store\Model\ScopeInterface;
 
 class OrderStatusConfig
 {
-    public const CANCEL_ORDERS_OLDER_THAN_PATH = 'elgentos_auto_cancel_orders/order/days',
-        CANCEL_ORDER_STATUS_PATH               = 'elgentos_auto_cancel_orders/order/order_statuses',
-        AUTO_ORDER_CANCEL_IS_ACTIVE_PATH       = 'elgentos_auto_cancel_orders/order/active';
+    public const CANCEL_ORDERS_OLDER_THAN_PATH = 'elgentos_cancel_pending_orders/order/days',
+        CANCEL_ORDER_STATUS_PATH               = 'elgentos_cancel_pending_orders/order/order_statuses',
+        AUTO_ORDER_CANCEL_IS_ACTIVE_PATH       = 'elgentos_cancel_pending_orders/order/active';
 
     /**
      * @var ScopeConfigInterface
